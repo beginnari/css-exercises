@@ -1,1 +1,28 @@
 /* Add CSS Styling */
+/* colours RGB picked with kolourpaint:
+black: 0 0 0 255 
+green: 133 253 134 255 
+pink: 253 167 168 255 
+blue: 11 36 251 255 
+1= 5
+fonts - 2, 4 serif, others sans*/
+.class {
+    background-color: rgb(253, 167, 168, 255);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.cooler-class {
+    font-size: 24px;
+}
+#id {
+    color: rgb(11, 36, 251, 255);
+    font-size: 36px;
+}
+#another-id {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(133, 253, 134, 255);
+}
+
+/* alternative: remove font size from #another-id, put class="cooler class" in html alongside id="another-id". However, unless I named it class2, it's basically same amount of characters? 
+And if the point is having a Class for Bigger Font, that might be worth it for longer documents.
+Unless the font size is Relevant to the #another-id thing. */
