@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+
+
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* Variant 1 div p */
+/* Variant 2 .container .text */
+/* Variant 3 .container p */
+/* Variant 4 div .text */
