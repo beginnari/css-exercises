@@ -10,9 +10,57 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+    margin: 32px;
+  
 }
 
-/* do not edit this footer */
+.container,
+.title {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  gap: 52px;
+}
+
+.item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 200px;
+  flex-shrink: min-content;
+/* max-width better,
+rest not necessary - if text-align center
+applies to WHOLE document, img gets centered automatically!! 
+It follows the item that HAS a rule applied to it
+instead of default left */
+}
+
+.text {
+  text-align: center
+}
+
+/*
+Solution:
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+do not edit this footer */
 .footer {
   position: fixed;
   bottom: 0;
